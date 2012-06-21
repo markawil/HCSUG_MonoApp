@@ -5,10 +5,13 @@ namespace HCSUG_FirstMonoApp
 {
 	public class TableSource : UITableViewSource
 	{
-		string[] _items;
-		public TableSource (string[] items)
+		Trend[] _items;
+		HCSUG_FirstMonoAppViewController _vc;
+
+		public TableSource (Trend[] items, HCSUG_FirstMonoAppViewController vc)
 		{
 			_items = items;
+			_vc = vc;
 		}
 
 		public override int RowsInSection (UITableView tableview, int section)
@@ -26,8 +29,15 @@ namespace HCSUG_FirstMonoApp
 				cell = new UITableViewCell (UITableViewCellStyle.Default, cellId);
 			}
 
-			cell.TextLabel.Text = _items [indexPath.Row];
+			cell.TextLabel.Text = _items [indexPath.Row].Name;
 			return cell;
+		}
+
+		public override void RowSelected (UITableView tableView, MonoTouch.Foundation.NSIndexPath indexPath)
+		{
+			var urlOfTrend = _items [indexPath.Row].Url;
+			var webVC = new WebViewController (urlOfTrend);
+			_vc.PresentModalViewController (webVC, true);
 		}
 	}
 }

@@ -93,9 +93,15 @@
     </Compile>
     <Compile Include="TableSource.cs" />
     <Compile Include="TwitterTrendsRepository.cs" />
+    <Compile Include="WebViewController.cs" />
+    <Compile Include="WebViewController.designer.cs">
+      <DependentUpon>WebViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trend.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="HCSUG_FirstMonoAppViewController.xib" />
+    <InterfaceDefinition Include="WebViewController.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

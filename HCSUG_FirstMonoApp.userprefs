@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HCSUG_FirstMonoApp/HCSUG_FirstMonoAppViewController.cs">
+    <Files>
+      <File FileName="HCSUG_FirstMonoApp/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="HCSUG_FirstMonoApp/HCSUG_FirstMonoAppViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="HCSUG_FirstMonoApp/HCSUG_FirstMonoAppViewController.cs" Line="36" Column="51" />
+      <File FileName="HCSUG_FirstMonoApp/TableSource.cs" Line="30" Column="16" />
+      <File FileName="HCSUG_FirstMonoApp/TwitterTrendsRepository.cs" Line="25" Column="62" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

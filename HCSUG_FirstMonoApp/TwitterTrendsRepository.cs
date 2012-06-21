@@ -12,7 +12,7 @@ namespace HCSUG_FirstMonoApp
 
 		}
 
-		public string[] GetTwitterTrends ()
+		public Trend[] GetTwitterTrends ()
 		{
 			string urlApi = "http://api.twitter.com/1/trends/1.json";
 			string reply = String.Empty;
@@ -20,7 +20,7 @@ namespace HCSUG_FirstMonoApp
 				reply = wc.DownloadString (urlApi);
 			}
 
-			List<string> listToReturn = new List<string> ();
+			List<Trend> listToReturn = new List<Trend> ();
 			var headNode = JsonArray.Parse (reply);
 			var trendsNode = JsonArray.Parse (headNode [0].ToString ());
 			var trends = trendsNode ["trends"];
@@ -28,7 +28,11 @@ namespace HCSUG_FirstMonoApp
 			foreach (var v in trends) {
 				var nodes = JsonArray.Parse (v.ToString ());
 				var name = nodes ["name"];
-				listToReturn.Add (name);
+				var trend = new Trend ();
+				trend.Name = name;
+				var url = nodes ["url"];
+				trend.Url = url;
+				listToReturn.Add (trend);
 			}
 
 			return listToReturn.ToArray ();

@@ -33,7 +33,7 @@ namespace HCSUG_FirstMonoApp
 			var twitterRepo = new TwitterTrendsRepository ();
 			var trends = twitterRepo.GetTwitterTrends ();
 			this.tabelView = new UITableView (View.Bounds);
-			this.tabelView.Source = new TableSource (trends);
+			this.tabelView.Source = new TableSource (trends, this);
 			Add (tabelView);
 		}
 		

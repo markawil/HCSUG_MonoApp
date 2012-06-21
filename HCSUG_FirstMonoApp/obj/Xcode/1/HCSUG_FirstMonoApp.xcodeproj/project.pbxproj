@@ -1,0 +1,227 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79A02F000000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955D07800000000000000000 /* UIKit.framework */; };
+		42267E000000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE356800000000000000000 /* Foundation.framework */; };
+		AACCD0000000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2669A5800000000000000000 /* CoreGraphics.framework */; };
+		3051A6000000000000000000 /* HCSUG_FirstMonoAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0E7E800000000000000000 /* HCSUG_FirstMonoAppViewController.xib */; };
+		F8D7F5000000000000000000 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1494CD800000000000000000 /* WebViewController.xib */; };
+		C15E44000000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = DD1B1C800000000000000000 /* AppDelegate.h */; };
+		36AE09800000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 526AE2000000000000000000 /* AppDelegate.m */; };
+		FF3458800000000000000000 /* HCSUG_FirstMonoAppViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 1AF131000000000000000000 /* HCSUG_FirstMonoAppViewController.h */; };
+		E2874F000000000000000000 /* HCSUG_FirstMonoAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4427800000000000000000 /* HCSUG_FirstMonoAppViewController.m */; };
+		AB0D9E000000000000000000 /* WebViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = C6CA76800000000000000000 /* WebViewController.h */; };
+		57D714800000000000000000 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7393ED000000000000000000 /* WebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BCA1A800000000000000000 /* HCSUG_FirstMonoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "HCSUG_FirstMonoApp.app"; path = "HCSUG_FirstMonoApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		955D07800000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		5DE356800000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		2669A5800000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		4C0E7E800000000000000000 /* HCSUG_FirstMonoAppViewController.xib */ = {isa = PBXFileReference; name = "HCSUG_FirstMonoAppViewController.xib"; path = "HCSUG_FirstMonoAppViewController.xib"; sourceTree = "<group>"; };
+		1494CD800000000000000000 /* WebViewController.xib */ = {isa = PBXFileReference; name = "WebViewController.xib"; path = "WebViewController.xib"; sourceTree = "<group>"; };
+		DD1B1C800000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		526AE2000000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		1AF131000000000000000000 /* HCSUG_FirstMonoAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HCSUG_FirstMonoAppViewController.h"; path = "HCSUG_FirstMonoAppViewController.h"; sourceTree = "<group>"; };
+		FE4427800000000000000000 /* HCSUG_FirstMonoAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "HCSUG_FirstMonoAppViewController.m"; path = "HCSUG_FirstMonoAppViewController.m"; sourceTree = "<group>"; };
+		C6CA76800000000000000000 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WebViewController.h"; path = "WebViewController.h"; sourceTree = "<group>"; };
+		7393ED000000000000000000 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WebViewController.m"; path = "WebViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2372D800000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A02F000000000000000000 /* UIKit.framework in Frameworks */,
+				42267E000000000000000000 /* Foundation.framework in Frameworks */,
+				AACCD0000000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D15ECEC00000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				2AF1BBC00000000000000000 /* HCSUG_FirstMonoApp */,
+				249558400000000000000000 /* Frameworks */,
+				7E2845400000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E2845400000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BCA1A800000000000000000 /* HCSUG_FirstMonoApp.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		249558400000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				955D07800000000000000000 /* UIKit.framework */,
+				5DE356800000000000000000 /* Foundation.framework */,
+				2669A5800000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		2AF1BBC00000000000000000 /* HCSUG_FirstMonoApp */ = {
+			isa = PBXGroup;
+			children = (
+				DD1B1C800000000000000000 /* AppDelegate.h */,
+				1AF131000000000000000000 /* HCSUG_FirstMonoAppViewController.h */,
+				4C0E7E800000000000000000 /* HCSUG_FirstMonoAppViewController.xib */,
+				C6CA76800000000000000000 /* WebViewController.h */,
+				1494CD800000000000000000 /* WebViewController.xib */,
+				B47022800000000000000000 /* Supporting Files */,
+			);
+			name = "HCSUG_FirstMonoApp";
+			sourceTree = "<group>";
+		};
+		B47022800000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				526AE2000000000000000000 /* AppDelegate.m */,
+				FE4427800000000000000000 /* HCSUG_FirstMonoAppViewController.m */,
+				7393ED000000000000000000 /* WebViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E0F3E000000000000000000 /* HCSUG_FirstMonoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347C51000000000000000000 /* Build configuration list for PBXNativeTarget "HCSUG_FirstMonoApp" */;
+			buildPhases = (
+				8F00A4000000000000000000 /* Sources */,
+				E2372D800000000000000000 /* Frameworks */,
+				AABD7C800000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HCSUG_FirstMonoApp";
+			productName = "HCSUG_FirstMonoApp";
+			productReference = 3BCA1A800000000000000000 /* HCSUG_FirstMonoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		660758000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = { };
+			buildConfigurationList = E145C7800000000000000000 /* Build configuration list for PBXProject "HCSUG_FirstMonoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D15ECEC00000000000000000;
+			productRefGroup = 7E2845400000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E0F3E000000000000000000 /* HCSUG_FirstMonoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AABD7C800000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3051A6000000000000000000 /* HCSUG_FirstMonoAppViewController.xib in Resources */,
+				F8D7F5000000000000000000 /* WebViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F00A4000000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15E44000000000000000000 /* AppDelegate.h in Sources */,
+				36AE09800000000000000000 /* AppDelegate.m in Sources */,
+				FF3458800000000000000000 /* HCSUG_FirstMonoAppViewController.h in Sources */,
+				E2874F000000000000000000 /* HCSUG_FirstMonoAppViewController.m in Sources */,
+				AB0D9E000000000000000000 /* WebViewController.h in Sources */,
+				57D714800000000000000000 /* WebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E89391000000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		450698000000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "HCSUG_FirstMonoApp";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E145C7800000000000000000 /* Build configuration list for PBXProject "HCSUG_FirstMonoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89391000000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		347C51000000000000000000 /* Build configuration list for PBXNativeTarget "HCSUG_FirstMonoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450698000000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 660758000000000000000000 /* Project object */;
+}
